@@ -1,1 +1,1 @@
-# Smart-Attendance
+# serious_minor_project

@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Gruppo&family=Kalnia:wght@200&family=Khula:wght@700&family=Lora&family=Mandali&family=Roboto&display=swap');
+
+
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lora', 'Courier New', Courier, monospace;
+}
+
+body {
+    overflow: hidden;
+    background: url('https://media.istockphoto.com/id/1154035820/video/teahnology-abstract-background-concept.jpg?s=640x640&k=20&c=tebVk_G9vpk7L-5tIoi6bDN-ECgZMHSAC-tRflABtrs=');
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: contrast(5rem) brightness(20px) saturate(2rem);
+
+}
+
+.main {
+    /* overflow: hidden; */
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.heading {
+    cursor: pointer;
+    font-size: 1.1rem;
+    margin-top: 2rem;
+    text-align: center;
+    text-shadow: 2px 2px 2px #bd83b6;
+    color: wheat;
+}
+
+span {
+    font-weight: 800;
+    color: #75b8d9;
+
+}
+
+h2 {
+    color: wheat;
+}
+
+span:hover {
+    color: #072e33;
+    /* transform: scale(2); */
+    transition: .1s ease-in-out;
+}
+
+
+.grid {
+    margin: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.grid .g1 div {
+    border: 2px solid white;
+    background: transparent;
+    margin: 1.2rem 5rem;
+    height: auto;
+    min-width: 15vw;
+    padding: 20px;
+    text-align: center;
+    border-radius: 3rem;
+    font-weight: bold;
+    box-shadow: 2px 1px 4rem #3a7a9d;
+    cursor: pointer;
+}
+
+
+.grid .g1 .box_2 {
+    position: relative;
+    left: 21vw;
+}
+
+
+.fa-regular {
+    height: 20vh;
+    width: 20vw;
+}
+
+
+
+
+
+.grid .g2 div {
+    border: 2px solid white;
+    background: transparent;
+    margin: 1rem 5rem;
+    height: auto;
+    min-width: 15vw;
+    padding: 20px;
+    text-align: center;
+    border-radius: 3rem;
+    font-weight: bold;
+    box-shadow: 2px 1px 4rem #3a7a9d;
+    cursor: pointer;
+
+}
